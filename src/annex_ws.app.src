@@ -1,0 +1,12 @@
+{application, annex_ws, [
+  {description, "websocket backend for annex"},
+  {vsn, "0.1.0"},
+  {modules, []},
+  {registered, []},
+  {applications, [
+    kernel,
+    stdlib,
+    gun
+  ]},
+  {env, []}
+]}.
